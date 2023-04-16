@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <h1>
+        The Great
+        <span id="colorDisplay"> <!-- El codigo RGB del color ganador --></span>
+        Guessing Game
+      </h1>
+      <div id="stripe">
+        <button id="reset">Nuevos Colores</button>
+        <span id="message"><!-- Aquí va el mensaje de intentalo nuevamente o correcto --></span>
+      </div>
+      
+      <div class="sele">
+        <div class="botones">
+        <button class="easy">Easy</button>
+        <button class="selected" id="hard">Hard</button>
+      </div>
+
+        <div class="container">
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+          <div class="square"></div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>

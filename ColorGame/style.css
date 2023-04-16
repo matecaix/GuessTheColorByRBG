@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Nunito:ital@1&family=Roboto:ital,wght@0,100;0,700;1,500&display=swap');
+
+body {
+    background-color:rgb(27, 27, 27)  
+  }
+  
+  .square {
+    cursor: pointer;
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: burlywood;
+    margin: 5px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin: 40px;
+  }
+  
+  #message{
+      color: white;
+  
+  }
+  
+  #stripe{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 95, 172, 0.737);
+      height: 70px;
+      text-align: center;
+      margin: 40px 350px 0px 350px;
+  }
+
+  #message{
+    position: relative;
+    top: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #reset{
+    position: fixed;
+    top: 18%;
+    align-items: center;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+  }
+
+  #reset:hover{
+    transform: scale(1.1);
+  }
+
+  .botones{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .easy{
+    margin-right: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+  }
+
+  #hard{
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 5px 25px;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+  }
+
+  .easy:hover{
+    transform: scale(1.1);
+  }
+  #hard:hover{
+    transform: scale(1.1);
+  }
+
+  .sele{
+    height: 550px;
+    margin: 0px 350px 0px 350px;
+    padding: 40px;
+    background-color: rgba(255, 95, 172, 0.737);
+  }
+
+  .selected{
+    background-color: rgb(61, 59, 59);
+    color: #ffffff;
+  }
